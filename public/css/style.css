@@ -1,0 +1,48 @@
+/* .body1{
+    background-image: url('../img/forecasttt.png');
+    background-repeat: no-repeat;   
+} */
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A6CF98;
+    font-family:'Nunito Sans', sans-serif; 
+}
+input{    
+    padding: 15px 35px;
+    font-size: large;
+    border: none;
+    border-radius: 15px;
+    background-color: #F2FFE9;
+    margin: 25px;
+    box-shadow: #557C55 0px 3px 3px 0;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: #DB6B97;
+    box-shadow: #557C55 0px 3px 3px 0;
+    
+}
+button:hover{
+    background-color:#557C55 ;
+    color: white;
+}
+h1{
+    color: #557C55;
+    text-shadow: 2px 2px 7px #F2FFE9;
+}
+p{
+    color: #557C55;
+    font-size: x-large;
+    font-weight: 700;
+    
+}
+
+
+
+
