@@ -11,7 +11,7 @@ weatherForm.addEventListener('submit' , (e)=> {
         return (msg1.textContent = 'Please enter the location.',  
                msg2.textContent ='')      
     }
-    const loc = 'http://localhost:3000/weathers?address=' + location;    
+    const loc = '/weathers?address=' + location;    
     fetch(loc).then((response) => {
         return response.json()
     }).then((data) => {        
